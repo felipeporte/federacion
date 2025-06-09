@@ -1,0 +1,16 @@
+body {
+    padding-top: 60px;
+}
+
+.site-header {
+    background-color: #343a40;
+}
+
+.site-header .nav-link,
+.site-header .navbar-brand {
+    color: #fff;
+}
+
+.site-header .nav-link:hover {
+    color: #f8f9fa;
+}
