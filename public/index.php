@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/../src/db.php';
 
+
 // Fetch disciplines from database
 $disciplines = $db->query('SELECT * FROM disciplinas');
 
