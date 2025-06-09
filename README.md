@@ -12,7 +12,9 @@ Este proyecto es un punto de partida para administrar una federación de patinaj
 
 1. Cree una base de datos MySQL llamada `federacion` y una tabla `disciplinas` con al menos una columna `nombre`.
 2. Copie el archivo `.env.example` a `.env` y ajuste `DB_HOST`, `DB_USER`, `DB_PASS` y `DB_NAME` según su entorno.
+   También puede definir `ADMIN_USER` y `ADMIN_PASS` para el acceso al formulario de login.
 3. Ejecute `composer install` para instalar las dependencias PHP.
 4. Configure Apache para que el directorio `public/` sea el *DocumentRoot* del sitio.
 
 Con esto podrá acceder a `index.php` para listar las disciplinas registradas. Las páginas incluyen las plantillas `templates/header.php` y `templates/footer.php` para reutilizar la misma cabecera y scripts.
+Además se dispone de `/login.php` con un formulario de inicio de sesión básico.
