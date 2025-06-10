@@ -1,11 +1,15 @@
 body.login-page {
-    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background: linear-gradient(120deg, #2300be 0%, #f12d2d 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
+body.login-page header.site-header {
+    background-color: #4e11110f;
+    border-radius: 10px;
+}
 .login-container {
     max-width: 380px;
     width: 100%;
